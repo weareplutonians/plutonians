@@ -1,7 +1,7 @@
 h1 {
   text-align: center;
-  font-family: Helvetica;
-  color: black;
+  font-family: Georgia;
+  color: red;
 }
 .center {
   display: block;
@@ -10,5 +10,14 @@ h1 {
   width: 50%;
 }
 .top {
-  margin-left: 10%;
 }
+p {
+  font-family: Georgia;
+  color: black;
+}
+li {
+  font-family: Georgia;
+  color: black;
+}
+
+  
