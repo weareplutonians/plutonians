@@ -1,7 +1,7 @@
 h1 {
   text-align: center;
   font-family: Georgia;
-  color: red;
+  color: black;
 }
 .center {
   display: block;
@@ -14,10 +14,15 @@ h1 {
 p {
   font-family: Georgia;
   color: black;
+  font-size: 18px
 }
 li {
   font-family: Georgia;
   color: black;
 }
-
+.footer{     
+   text-align: center;    
+   bottom: 0px; 
+   width: 100%;
+} 
   
