@@ -20,9 +20,20 @@ li {
   font-family: Georgia;
   color: black;
 }
-.footer{     
+.footer {     
    text-align: center;    
    bottom: 0px; 
    width: 100%;
 } 
-  
+.speechbubble {
+  position: relative;
+  text-align: center;
+}
+.speechtext {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  font-size: 30px;
+  font-family: Georgia;
+  font-weight: bold;
+}
