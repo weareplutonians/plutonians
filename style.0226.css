@@ -1,0 +1,33 @@
+.flyer {
+  position: relative;
+  width: 100%;
+}
+.bg {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 0;
+}
+.img {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  display: inline-block;
+}
+.img img {
+  width: 100%;
+  display: block;
+}
+.rainbow-text {
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: left;
+    font-size: 300%;
+}
+.rainbow-text .block-line > span {
+    display: inline-block;
+}
+.footer { 
+  positon: relative;    
+  text-align: center;    
+  width: 100%;
+} 
