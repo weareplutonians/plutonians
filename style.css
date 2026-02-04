@@ -42,7 +42,10 @@ li {
   height: fit-content;
   display: inline-block;
 }
-.top {
-  position: relative;
+.img img {
   width: 100%;
+  display: block;
+}
+.title {
+  text-align: center;
 }
