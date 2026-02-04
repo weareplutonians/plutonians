@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<title>THE TRIFECTA</title>
+   <link href="style.css" rel="stylesheet" type="text/css" media="all">
+<style type="text/css">
+body {
+  background-image: url("bgsky.gif")
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+}
+.row {
+  margin: auto;
+  width: 100%;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  .main { width: 100%; }
+  .column { width: 100%; }
+}
+img {
+  max-width: 100%;
+}
+.title {
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+  <div class="title">
+    <img src="plutoheader2.png">
+  </div>
+  <div class="main">
+    <div class="row">
+      <div class="column">
+        <img src="sam.jpg" style="width: 100%; height: 200px;">
+      </div><div class="column">
+        <img src="don.jpg" style="width: 100%; height: 200px;">
+      </div><div class="column">
+        <img src="eli.jpg" style="width: 100%; height: 200px;"></div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="footer">
+    <a href="index.html"><img src="plutonian.jpeg" style="width: 10%"><p style="text-align: center;">return</p></a>
+  </div>
+</body>
